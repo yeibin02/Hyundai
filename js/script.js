@@ -1,4 +1,6 @@
 window.onload = function () {
+  //aos기능
+  AOS.init();
   //메뉴 기능
   const nav = document.querySelector(".nav");
   const btMenu = document.querySelector(".bt-menu");
